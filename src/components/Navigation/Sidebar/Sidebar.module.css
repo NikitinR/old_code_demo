@@ -1,0 +1,44 @@
+.AppSidebar {
+  grid-area: AppSidebar;
+
+  padding: 20px;
+  background-color: #1a1a00;
+}
+
+.SidebarMenu {
+  font-size: inherit;
+}
+
+.SidebarMinified .MenuText {
+  display: none;
+}
+
+.SidebarElement {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+}
+
+.SidebarElement a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.MenuText {
+  margin-left: 5px;
+}
+
+@media all and (max-width: 831px) {
+  .AppLayout {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .AppLayout.SidebarMinified {
+    grid-template-columns: 0 1fr;
+  }
+
+  .MenuText {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.CreateGameForm {
+  margin: 10px;
+  width: 335px;
+}
+
+.CoordinatesInput {
+  position: relative;
+}
+
+.LocationIcon {
+  position: absolute;
+  top: 33px;
+  right: 4px;
+}
+
+.LocationIcon:hover {
+  cursor: pointer;
+}

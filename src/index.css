@@ -1,0 +1,7 @@
+@import-normalize;
+@import '../node_modules/modern-css-reset/dist/reset.css';
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}

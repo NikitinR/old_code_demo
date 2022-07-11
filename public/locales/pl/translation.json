@@ -1,0 +1,84 @@
+{
+    "app": {
+        "title": "Airsoft Radar",
+        "toolbar": {
+            "login": "Zaloguj sie",
+            "signup": "Rejestracja",
+            "logout": "Wyloguj się"
+        },
+        "sidebar": {
+            "main": "Główny",
+            "create_game": "Utwórz grę",
+            "game_list": "Lista gier"
+
+        },
+        "ui": {
+            "button": {
+                "save_changes": "Zapisz zmiany"
+            }
+        },
+        "login": {
+            "login_label": "Zaloguj się",
+            "login_placeholder": "Wprowadź e-mail",
+            "password_label": "Hasło",
+            "password_placeholder": "Wprowadź hasło",
+            "login_button": "Zaloguj się"
+        },
+        "signup": {
+            "nickname_label": "Przezwisko",
+            "nickname_placeholder": "Podaj przezwisko",
+            "email_label": "Email",
+            "email_placeholder": "Wpisz e-mail",
+            "password_label": "Hasło",
+            "password_placeholder": "Wprowadź hasło",
+            "confirm_password_label": "Potwierdź hasło",
+            "confirm_password_placeholder": "Wprowadź potwierdzenie hasła",
+            "country_label": "Kraj",
+            "country_placeholder": "Wpisz swój kraj",
+            "region_label": "Region",
+            "region_placeholder": "Wpisz swój region",
+            "city_label": "Miasto",
+            "city_placeholder": "Wpisz swoje miasto",
+            "registration_button": "Rejestracja"
+        },
+        "create_game": {
+            "title_label": "Tytuł gry",
+            "title_placeholder": "Wpisz tytuł gry",
+            "start_label": "Data rozpoczęcia",
+            "end_label": "Data zakonczenia",
+            "description_label": "Opis",
+            "description_label_placeholder": "Wprowadź opis",
+            "location_label": "Lokalizacja",
+            "location_placeholder": "Wybierz lokalizację gry",
+            "pick_on_map_button": "Wybierz na mapie",
+            "create_game_button": "Utwórz grę",
+            "popup": {
+                "pick_location_title": "Wybierz lokalizację gry",
+                "game_location": "Aktualna lokalizacja:"
+            }
+        },
+        "game_list": {
+            "map_mode": "Tryb mapy:",
+            "created": "Utworzono:",
+            "status": "Stan:"
+        },
+        "game_info": {
+            "game_name": "Nazwa gry:",
+            "game_status": "Stan gry:",
+            "game_created": "Gra została utworzona:",
+            "game_start": "Rozpoczęcie gry:",
+            "game_end": "Koniec gry:",
+            "game_description": "Opis gry:"
+        },
+        "validation": {
+            "required": "Wymagane",
+            "email_is_invalid": "Email jest nieprawidłowy",
+            "email_is_required": "Email jest wymagany",
+            "password_too_short": "Hasło za krótkie",
+            "password_must_match": "Hasło musi być zgodne",
+            "confirm_password_is_required": "Potwierdź hasło jest wymagane",
+            "max_count_validation": "Pole musi mieć mniej niż {{count}} znaków",
+            "min_count_validation": "Pole musi zawierać więcej niż {{count}} znaków"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.AppLayout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 40px 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'AppHeader AppHeader'
+    'AppSidebar AppMainContainer';
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.AppLayout.SidebarMinified {
+  grid-template-columns: 60px 1fr;
+}
+
+.AppMainContainer {
+  grid-area: AppMainContainer;
+  background-color: #fff;
+}
+
+@media all and (max-width: 831px) {
+  .AppLayout {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .AppLayout.SidebarMinified {
+    grid-template-columns: 0 1fr;
+  }
+}

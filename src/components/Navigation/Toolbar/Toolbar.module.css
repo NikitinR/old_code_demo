@@ -1,0 +1,46 @@
+.AppHeader {
+  grid-area: AppHeader;
+
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #263300;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.Logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.Logo .AppName {
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.SidebarToggle {
+  cursor: pointer;
+}
+
+.Menu {
+  display: flex;
+}
+
+.MenuElement {
+  margin-left: 10px;
+}
+
+.MenuElement a {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.SidebarToggle {
+  margin-right: 10px;
+}

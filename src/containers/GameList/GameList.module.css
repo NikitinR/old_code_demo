@@ -1,0 +1,21 @@
+.AppGameList .GameList {
+  margin: 10px;
+}
+
+.AppGameList .GameListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  background-color: #cfcfcf;
+  border: solid 1px #00160b;
+  line-height: 1.2;
+}
+
+.AppGameList .GameListItem > * {
+  padding: 0 5px;
+}
+
+.GameListItem .GameLink {
+  color: black;
+}

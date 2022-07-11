@@ -1,0 +1,84 @@
+{
+    "app": {
+        "title": "Airsoft Radar",
+        "toolbar": {
+            "login": "Login",
+            "signup": "Signup",
+            "logout": "Logout"
+        },
+        "sidebar": {
+            "main": "Main",
+            "create_game": "Create Game",
+            "game_list": "Game List"
+
+        },
+        "ui": {
+            "button": {
+               "save_changes": "Save changes"
+            }
+        },
+        "login": {
+            "login_label":"Login",
+            "login_placeholder": "Enter E-mail",
+            "password_label": "Password",
+            "password_placeholder": "Enter password",
+            "login_button": "Login"
+        },
+        "signup": {
+            "nickname_label":"Nickname",
+            "nickname_placeholder": "Enter nickname",
+            "email_label": "Email",
+            "email_placeholder": "Enter e-mail",
+            "password_label":"Password",
+            "password_placeholder": "Enter password",
+            "confirm_password_label": "Confirm password",
+            "confirm_password_placeholder": "Enter password confirmation",
+            "country_label":"Country",
+            "country_placeholder": "Enter your country",
+            "region_label": "Region",
+            "region_placeholder": "Enter your region",
+            "city_label": "City",
+            "city_placeholder": "Enter your city",
+            "registration_button": "Registration"
+        },
+        "create_game": {
+            "title_label":"Game Title",
+            "title_placeholder":"Enter game title",
+            "start_label":"Start Date",
+            "end_label":"End Date",
+            "description_label":"Description",
+            "description_label_placeholder":"Enter description",
+            "location_label":"Location",
+            "location_placeholder":"Pick game location",
+            "pick_on_map_button":"Pick on the map",
+            "create_game_button":"Create game",
+            "popup": {
+                "pick_location_title": "Pick game location",
+                "game_location": "Current location:"
+            }
+        },
+        "game_list": {
+            "map_mode": "Map mode:",
+            "created": "Created:",
+            "status": "Status:"
+        },
+        "game_info": {
+            "game_name": "Game status:",
+            "game_status": "Game status:",
+            "game_created": "Game created:",
+            "game_start": "Game start:",
+            "game_end": "Game end:",
+            "game_description": "Game description:"
+        },
+        "validation": {
+            "required": "Required",
+            "email_is_invalid": "Email is invalid",
+            "email_is_required": "Email is required",
+            "password_too_short": "Password too short",
+            "password_must_match": "Password must match",
+            "confirm_password_is_required": "Confirm Password is required",
+            "max_count_validation": "Field must be shorter than {{count}} characters",
+            "min_count_validation": "Field must be more than {{count}} characters"
+        }
+    }
+}
